@@ -1,0 +1,39 @@
+{
+  "name": "SENTINEL QC Development",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "pip install -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.black-formatter",
+        "ms-toolsai.jupyter",
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "./venv/bin/python",
+        "python.terminal.activateEnvironment": true
+      }
+    }
+  },
+  "forwardPorts": [8000, 6333, 5000],
+  "portsAttributes": {
+    "8000": {
+      "label": "FastAPI/Web Demo",
+      "onAutoForward": "notify"
+    },
+    "6333": {
+      "label": "Qdrant Vector DB",
+      "onAutoForward": "silent"
+    },
+    "5000": {
+      "label": "MLflow Tracking",
+      "onAutoForward": "silent"
+    }
+  }
+}
