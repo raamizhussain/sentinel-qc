@@ -1,0 +1,98 @@
+[
+  {
+    "query_index": 1,
+    "query_text": "What should I do if I find a large crack in a bottle?",
+    "expected_doc": "SOP-BOTTLE-001",
+    "retrieved": false,
+    "top_3": [
+      {
+        "doc_id": "SOP-BOTTLE-broken_large",
+        "title": "SOP-BOTTLE-001: Large Fracture Detection and Handling",
+        "similarity": 0.4692144427241849
+      },
+      {
+        "doc_id": "SOP-BOTTLE-broken_small",
+        "title": "SOP-BOTTLE-002: Minor Defect Triage and Acceptance Criteria",
+        "similarity": 0.3511581010146018
+      },
+      {
+        "doc_id": "SOP-BOTTLE-contamination",
+        "title": "SOP-BOTTLE-003: Foreign Material Detection Protocol",
+        "similarity": 0.34134848962579256
+      }
+    ],
+    "rank_of_expected": 0
+  },
+  {
+    "query_index": 2,
+    "query_text": "How do I assess if a cable's outer insulation damage is acceptable?",
+    "expected_doc": "SOP-CABLE-001",
+    "retrieved": false,
+    "top_3": [
+      {
+        "doc_id": "SOP-CABLE-cut_outer_insulation",
+        "title": "SOP-CABLE-001: Outer Insulation Integrity Assessment",
+        "similarity": 0.7160358077060822
+      },
+      {
+        "doc_id": "SOP-CABLE-bent_wire",
+        "title": "SOP-CABLE-002: Wire Strain Relief and Bend Radius Compliance",
+        "similarity": 0.5415921795720706
+      },
+      {
+        "doc_id": "SOP-BOTTLE-broken_large",
+        "title": "SOP-BOTTLE-001: Large Fracture Detection and Handling",
+        "similarity": 0.14306255068368734
+      }
+    ],
+    "rank_of_expected": 0
+  },
+  {
+    "query_index": 3,
+    "query_text": "Detection and handling of foreign particles inside bottles",
+    "expected_doc": "SOP-BOTTLE-003",
+    "retrieved": false,
+    "top_3": [
+      {
+        "doc_id": "SOP-BOTTLE-contamination",
+        "title": "SOP-BOTTLE-003: Foreign Material Detection Protocol",
+        "similarity": 0.6574971288166124
+      },
+      {
+        "doc_id": "SOP-BOTTLE-broken_large",
+        "title": "SOP-BOTTLE-001: Large Fracture Detection and Handling",
+        "similarity": 0.4585649584043125
+      },
+      {
+        "doc_id": "SOP-BOTTLE-broken_small",
+        "title": "SOP-BOTTLE-002: Minor Defect Triage and Acceptance Criteria",
+        "similarity": 0.37456488048872905
+      }
+    ],
+    "rank_of_expected": 0
+  },
+  {
+    "query_index": 4,
+    "query_text": "Wire bend radius compliance for cable assemblies",
+    "expected_doc": "SOP-CABLE-002",
+    "retrieved": false,
+    "top_3": [
+      {
+        "doc_id": "SOP-CABLE-bent_wire",
+        "title": "SOP-CABLE-002: Wire Strain Relief and Bend Radius Compliance",
+        "similarity": 0.724922549701213
+      },
+      {
+        "doc_id": "SOP-CABLE-cut_outer_insulation",
+        "title": "SOP-CABLE-001: Outer Insulation Integrity Assessment",
+        "similarity": 0.48391832130869655
+      },
+      {
+        "doc_id": "SOP-BOTTLE-broken_small",
+        "title": "SOP-BOTTLE-002: Minor Defect Triage and Acceptance Criteria",
+        "similarity": 0.1605372075912248
+      }
+    ],
+    "rank_of_expected": 0
+  }
+]

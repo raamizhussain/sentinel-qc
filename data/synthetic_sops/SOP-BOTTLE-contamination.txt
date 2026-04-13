@@ -1,0 +1,38 @@
+Title: SOP-BOTTLE-003: Foreign Material Detection Protocol
+Product: Glass Bottle
+Defect Type: contamination
+----------------------------------------------------------------------
+
+SCOPE: Detection and handling of foreign material inside or on bottle surface.
+
+CONTAMINATION TYPES:
+1. Internal contamination: particles, liquid residue, organic matter
+2. External contamination: dust, labels improperly applied, chemical residue
+3. Structural contamination: embedded glass or metal fragments
+
+DETECTION METHODS:
+- Visual inspection (internal light source - 1000 lux minimum)
+- Shake test (vigorous shaking to mobilize internal particles)
+- Weight differential analysis (full vs empty) - threshold ±2%
+- Spectral analysis (optional, for chemical contamination)
+
+TOLERANCE LEVELS:
+- Transparent bottles: ANY visible internal particle = REJECT
+- Opaque bottles: <5mm particles acceptable if not at contact surfaces
+- Surface contamination: >10% coverage = REJECT
+
+REMEDIATION:
+1. Internal contamination: Rinse, re-inspect, or discard
+2. External contamination: Clean with soft cloth and approved solvent
+3. Persistent contamination: Quarantine for investigation
+
+TRACEABILITY:
+- Source identification (track back to production line)
+- Batch hold and investigation
+- Preventive maintenance scheduling for equipment
+
+DOCUMENTATION:
+- Photo of contamination (magnified if necessary)
+- Type of foreign material identified
+- Remediation action taken
+- QC disposition: REJECT or REWORK

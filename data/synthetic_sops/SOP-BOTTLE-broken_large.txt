@@ -1,0 +1,33 @@
+Title: SOP-BOTTLE-001: Large Fracture Detection and Handling
+Product: Glass Bottle
+Defect Type: broken_large
+----------------------------------------------------------------------
+
+SCOPE: This SOP applies to detection and management of large fractures (>5mm) in glass bottles.
+
+IDENTIFICATION:
+1. Visual inspection under bright light (>500 lux)
+2. Listen for acoustic signatures (slight tapping)
+3. Temperature differential detection (thermography optional)
+
+LOCATION PATTERNS:
+- Neck fractures: Primary weak point, leads to rapid propagation
+- Body fractures: Typically vertical, originating from stress concentration
+- Base fractures: Usually circular, from thermal shock or impact
+
+RISK ASSESSMENT:
+- Contamination risk: HIGH (glass particles)
+- Leakage risk: HIGH (structural compromise)
+- Consumer safety: CRITICAL
+
+REMEDIATION:
+1. Isolate defective batch immediately
+2. Secondary inspection of adjacent units (n+/-2)
+3. Root cause analysis (thermal, mechanical, material fatigue)
+4. Quarantine for recycling (do not repair)
+
+DOCUMENTATION:
+- Photo evidence (top, side, bottom views)
+- Lot number and production timestamp
+- Inspector signature and date
+- QC disposition code: REJECT

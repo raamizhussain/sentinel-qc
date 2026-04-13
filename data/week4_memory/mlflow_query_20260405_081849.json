@@ -1,0 +1,38 @@
+{
+  "image_path": "..\\data\\mvtec\\bottle\\test\\broken_large\\000.png",
+  "question": "Identify the product defect, severity, root cause, recommended action, and confidence.",
+  "vision_summary": "Detected 0 object(s) with YOLO",
+  "retrieval": [
+    {
+      "doc_id": "",
+      "title": "none",
+      "weighted_score": 0.0,
+      "sources": [
+        {
+          "type": "text",
+          "score": 0.0
+        }
+      ]
+    }
+  ],
+  "reasoning": {
+    "defect_type": "unknown",
+    "severity": "unknown",
+    "root_cause": "LLM call failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'The /v1/complete endpoint has been deprecated. Please use the /v1/messages endpoint instead. See https://docs.anthropic.com/en/api/messages for details.'}, 'request_id': 'req_011CZkJ8VsTvGHTwepxs6nUM'}",
+    "recommended_action": "Manual review required",
+    "confidence": 0.0,
+    "citations": [],
+    "counterfactual": "No counterfactual generated."
+  },
+  "metadata": {
+    "vision_details": {
+      "yolo": {
+        "detections": [],
+        "count": 0
+      },
+      "anomaly": null
+    },
+    "drift_warning": null,
+    "max_image_similarity": 0.0
+  }
+}

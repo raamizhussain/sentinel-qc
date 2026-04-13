@@ -1,0 +1,87 @@
+[
+  {
+    "id": "SOP-BOTTLE-broken_large",
+    "product": "Glass Bottle",
+    "defect_type": "broken_large",
+    "title": "SOP-BOTTLE-001: Large Fracture Detection and Handling",
+    "description": "Procedure for identifying and handling bottles with large structural fractures",
+    "content": "SCOPE: This SOP applies to detection and management of large fractures (>5mm) in glass bottles.\n\nIDENTIFICATION:\n1. Visual inspection under bright light (>500 lux)\n2. Listen for acoustic signatures (slight tapping)\n3. Temperature differential detection (thermography optional)\n\nLOCATION PATTERNS:\n- Neck fractures: Primary weak point, leads to rapid propagation\n- Body fractures: Typically vertical, originating from stress concentration\n- Base fractures: Usually circular, from thermal shock or impact\n\nRISK ASSESSMENT:\n- Contamination risk: HIGH (glass particles)\n- Leakage risk: HIGH (structural compromise)\n- Consumer safety: CRITICAL\n\nREMEDIATION:\n1. Isolate defective batch immediately\n2. Secondary inspection of adjacent units (n+/-2)\n3. Root cause analysis (thermal, mechanical, material fatigue)\n4. Quarantine for recycling (do not repair)\n\nDOCUMENTATION:\n- Photo evidence (top, side, bottom views)\n- Lot number and production timestamp\n- Inspector signature and date\n- QC disposition code: REJECT",
+    "generated_at": "2026-04-05T11:48:26.011430",
+    "length_tokens": 138,
+    "keywords": [
+      "scope",
+      "risk",
+      "reject",
+      "documentation",
+      "identification"
+    ]
+  },
+  {
+    "id": "SOP-BOTTLE-broken_small",
+    "product": "Glass Bottle",
+    "defect_type": "broken_small",
+    "title": "SOP-BOTTLE-002: Minor Defect Triage and Acceptance Criteria",
+    "description": "Procedure for small cracks and chips in glass bottles",
+    "content": "SCOPE: This SOP applies to detection of minor defects (<3mm) that may be acceptable.\n\nIDENTIFICATION:\n1. Magnified visual inspection (10x magnification)\n2. Surface palpation (gloved touch inspection)\n3. Dimensional verification with precision calipers\n\nDEFECT CLASSIFICATION:\n- Micro-cracks: <1mm length, surface-level only - ACCEPT\n- Small chips: <3mm diameter, not at stress points - CONDITIONAL ACCEPT\n- Surface scratches: Cosmetic only - ACCEPT\n\nSTRESS POINT DEFINITION:\n- Bottle neck junction\n- Base impact zone\n- Label application area (stress concentration)\n\nCONDITIONAL ACCEPTANCE CRITERIA:\n- Defect must be >5mm from bottle rim\n- Defect must be <15mm from base\n- No sharp edges (must be smooth for handling safety)\n\nCUSTOMER COMMUNICATION:\n- Inform customers of minor defects if >2% of batch affected\n- Provide photographic documentation\n- Offer batch replacement guarantee if needed\n\nDOCUMENTATION:\n- QC disposition code: ACCEPT or CONDITIONAL-ACCEPT",
+    "generated_at": "2026-04-05T11:48:26.027782",
+    "length_tokens": 139,
+    "keywords": [
+      "accept",
+      "scope",
+      "documentation",
+      "identification",
+      "acceptance"
+    ]
+  },
+  {
+    "id": "SOP-BOTTLE-contamination",
+    "product": "Glass Bottle",
+    "defect_type": "contamination",
+    "title": "SOP-BOTTLE-003: Foreign Material Detection Protocol",
+    "description": "Procedure for identifying and handling contaminated bottles",
+    "content": "SCOPE: Detection and handling of foreign material inside or on bottle surface.\n\nCONTAMINATION TYPES:\n1. Internal contamination: particles, liquid residue, organic matter\n2. External contamination: dust, labels improperly applied, chemical residue\n3. Structural contamination: embedded glass or metal fragments\n\nDETECTION METHODS:\n- Visual inspection (internal light source - 1000 lux minimum)\n- Shake test (vigorous shaking to mobilize internal particles)\n- Weight differential analysis (full vs empty) - threshold \u00b12%\n- Spectral analysis (optional, for chemical contamination)\n\nTOLERANCE LEVELS:\n- Transparent bottles: ANY visible internal particle = REJECT\n- Opaque bottles: <5mm particles acceptable if not at contact surfaces\n- Surface contamination: >10% coverage = REJECT\n\nREMEDIATION:\n1. Internal contamination: Rinse, re-inspect, or discard\n2. External contamination: Clean with soft cloth and approved solvent\n3. Persistent contamination: Quarantine for investigation\n\nTRACEABILITY:\n- Source identification (track back to production line)\n- Batch hold and investigation\n- Preventive maintenance scheduling for equipment\n\nDOCUMENTATION:\n- Photo of contamination (magnified if necessary)\n- Type of foreign material identified\n- Remediation action taken\n- QC disposition: REJECT or REWORK",
+    "generated_at": "2026-04-05T11:48:26.032311",
+    "length_tokens": 174,
+    "keywords": [
+      "documentation",
+      "reject",
+      "scope"
+    ]
+  },
+  {
+    "id": "SOP-CABLE-cut_outer_insulation",
+    "product": "Electronic Cable Assembly",
+    "defect_type": "cut_outer_insulation",
+    "title": "SOP-CABLE-001: Outer Insulation Integrity Assessment",
+    "description": "Procedure for evaluating cuts and abrasions in outer jacket",
+    "content": "SCOPE: Detection and evaluation of outer insulation damage in cable assemblies.\n\nINSPECTION EQUIPMENT:\n- Visual inspection (bright field illumination)\n- Continuity tester (optional, if inner conductors exposed)\n- Insulation resistance meter (>20 megohms @ 500V DC)\n- Micrometer for depth measurement\n\nDEFECT CLASSIFICATION:\n- Surface abrasion: Only cosmetic, no conductor exposure - ACCEPT\n- Shallow cut: <50% insulation depth - CONDITIONAL ACCEPT\n- Full cut: Conductor exposed, >50% depth - REJECT\n\nRISK ASSESSMENT:\n- Electrical safety: Short circuit risk if wet environment\n- Signal integrity: Crosstalk if shielding compromised\n- Physical safety: Shock hazard if high voltage application\n\nACCEPTANCE CRITERIA:\n- No exposure of inner conductor\n- No exposed shielding layer\n- Insulation resistance remains >10 megohms\n- Length of cut <1 inch (25mm) for conditional acceptance\n\nREPAIR OPTIONS:\n- Electrical tape wrapping (temporary, <6 months)\n- Heat-shrink tube (preferred method)\n- Cable segment replacement (if damage >2 inches)\n\nDOCUMENTATION:\n- Cut location (distance from connector, cm)\n- Depth measurement (mm)\n- Photo evidence with scale reference\n- Repair method and materials used",
+    "generated_at": "2026-04-05T11:48:26.043403",
+    "length_tokens": 173,
+    "keywords": [
+      "inspection",
+      "accept",
+      "scope",
+      "risk",
+      "reject",
+      "documentation",
+      "acceptance"
+    ]
+  },
+  {
+    "id": "SOP-CABLE-bent_wire",
+    "product": "Electronic Cable Assembly",
+    "defect_type": "bent_wire",
+    "title": "SOP-CABLE-002: Wire Strain Relief and Bend Radius Compliance",
+    "description": "Procedure for assessing wire bending damage and mechanical stress",
+    "content": "SCOPE: Evaluation of bent, kinked, or damaged wires in cable assemblies.\n\nMECHANICAL INSPECTION:\n1. Visual inspection of wire routing through strain relief\n2. Bend radius measurement (minimum radius per cable specification)\n3. Continuity testing on individual conductors\n4. Resistance measurement across conductor length\n\nDEFECT TYPES:\n- Permanent kink: Conductor cross-section compromised, resistance increased\n- Sharp bend: Radius <2x cable diameter - Risk of internal wire breakage\n- Stress mark: Visible whitening or cracking in wire insulation\n\nBEND RADIUS REQUIREMENTS:\n- Stranded copper: Minimum 4x cable outer diameter\n- Twisted pair: Minimum 3x cable outer diameter\n- Ribbon cable: Minimum 2x cable width\n\nELECTRICAL TESTING:\n- DC resistance: Measure vs. baseline (tolerance \u00b15%)\n- High-frequency insertion loss: <1dB deviation acceptable\n- Impedance: Maintain 50-100 ohm specification\n\nACCEPTANCE CRITERIA:\n- Bend radius compliant with specification\n- No white stress marks or surface cracking\n- Electrical parameters within tolerance (resistance, impedance)\n- Individual conductor continuity verified\n\nREMEDIATION:\n- Straighten wire carefully if kink is recent\n- Replace conductor if resistance increased >10%\n- Re-route cable to comply with bend radius\n\nDOCUMENTATION:\n- Photo of bend (angle reference, measurement tool shown)\n- Resistance measurements (ohms)\n- Bend radius calculation\n- Acceptance or rejection decision",
+    "generated_at": "2026-04-05T11:48:26.047406",
+    "length_tokens": 200,
+    "keywords": [
+      "inspection",
+      "accept",
+      "scope",
+      "documentation",
+      "acceptance"
+    ]
+  }
+]

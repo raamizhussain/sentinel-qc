@@ -1,0 +1,104 @@
+[
+  {
+    "image": "data\\mvtec\\bottle\\test\\good\\000.png",
+    "category": "Good",
+    "width": 900,
+    "height": 900,
+    "timestamp": "2026-04-05T11:45:51.363795",
+    "yolo_detections": 0,
+    "clip_embedding_dim": 512,
+    "clip_embedding_norm": 11.487262725830078,
+    "semantic_similarities": {
+      "a defective bottle with damage": 27.35277557373047,
+      "a perfect good quality bottle": 28.117456436157227,
+      "a bottle with contamination": 27.99989891052246
+    },
+    "anomaly_features_mean": 0.7203414440155029,
+    "anomaly_features_std": 1.2395496368408203
+  },
+  {
+    "image": "data\\mvtec\\bottle\\test\\good\\001.png",
+    "category": "Good",
+    "width": 900,
+    "height": 900,
+    "timestamp": "2026-04-05T11:46:00.303295",
+    "yolo_detections": 0,
+    "clip_embedding_dim": 512,
+    "clip_embedding_norm": 11.370660781860352,
+    "semantic_similarities": {
+      "a defective bottle with damage": 27.962812423706055,
+      "a perfect good quality bottle": 28.312366485595703,
+      "a bottle with contamination": 28.90615463256836
+    },
+    "anomaly_features_mean": 0.706017255783081,
+    "anomaly_features_std": 1.2348712682724
+  },
+  {
+    "image": "data\\mvtec\\bottle\\test\\broken_large\\000.png",
+    "category": "Broken Large",
+    "width": 900,
+    "height": 900,
+    "timestamp": "2026-04-05T11:46:03.335107",
+    "yolo_detections": 0,
+    "clip_embedding_dim": 512,
+    "clip_embedding_norm": 11.490374565124512,
+    "semantic_similarities": {
+      "a defective bottle with damage": 31.044782638549805,
+      "a perfect good quality bottle": 28.952016830444336,
+      "a bottle with contamination": 31.01167106628418
+    },
+    "anomaly_features_mean": 0.7377705574035645,
+    "anomaly_features_std": 1.2807644605636597
+  },
+  {
+    "image": "data\\mvtec\\bottle\\test\\broken_large\\001.png",
+    "category": "Broken Large",
+    "width": 900,
+    "height": 900,
+    "timestamp": "2026-04-05T11:46:06.084625",
+    "yolo_detections": 0,
+    "clip_embedding_dim": 512,
+    "clip_embedding_norm": 11.4115571975708,
+    "semantic_similarities": {
+      "a defective bottle with damage": 31.847698211669922,
+      "a perfect good quality bottle": 29.09565544128418,
+      "a bottle with contamination": 30.893821716308594
+    },
+    "anomaly_features_mean": 0.701630711555481,
+    "anomaly_features_std": 1.2252558469772339
+  },
+  {
+    "image": "data\\mvtec\\bottle\\test\\broken_small\\000.png",
+    "category": "Broken Small",
+    "width": 900,
+    "height": 900,
+    "timestamp": "2026-04-05T11:46:08.103394",
+    "yolo_detections": 0,
+    "clip_embedding_dim": 512,
+    "clip_embedding_norm": 11.434589385986328,
+    "semantic_similarities": {
+      "a defective bottle with damage": 26.986572265625,
+      "a perfect good quality bottle": 27.449501037597656,
+      "a bottle with contamination": 26.832304000854492
+    },
+    "anomaly_features_mean": 0.738566517829895,
+    "anomaly_features_std": 1.2809951305389404
+  },
+  {
+    "image": "data\\mvtec\\bottle\\test\\broken_small\\001.png",
+    "category": "Broken Small",
+    "width": 900,
+    "height": 900,
+    "timestamp": "2026-04-05T11:46:10.888315",
+    "yolo_detections": 0,
+    "clip_embedding_dim": 512,
+    "clip_embedding_norm": 11.315942764282227,
+    "semantic_similarities": {
+      "a defective bottle with damage": 25.637874603271484,
+      "a perfect good quality bottle": 25.492095947265625,
+      "a bottle with contamination": 25.355640411376953
+    },
+    "anomaly_features_mean": 0.7212863564491272,
+    "anomaly_features_std": 1.2320204973220825
+  }
+]

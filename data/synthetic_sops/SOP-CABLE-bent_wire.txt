@@ -1,0 +1,44 @@
+Title: SOP-CABLE-002: Wire Strain Relief and Bend Radius Compliance
+Product: Electronic Cable Assembly
+Defect Type: bent_wire
+----------------------------------------------------------------------
+
+SCOPE: Evaluation of bent, kinked, or damaged wires in cable assemblies.
+
+MECHANICAL INSPECTION:
+1. Visual inspection of wire routing through strain relief
+2. Bend radius measurement (minimum radius per cable specification)
+3. Continuity testing on individual conductors
+4. Resistance measurement across conductor length
+
+DEFECT TYPES:
+- Permanent kink: Conductor cross-section compromised, resistance increased
+- Sharp bend: Radius <2x cable diameter - Risk of internal wire breakage
+- Stress mark: Visible whitening or cracking in wire insulation
+
+BEND RADIUS REQUIREMENTS:
+- Stranded copper: Minimum 4x cable outer diameter
+- Twisted pair: Minimum 3x cable outer diameter
+- Ribbon cable: Minimum 2x cable width
+
+ELECTRICAL TESTING:
+- DC resistance: Measure vs. baseline (tolerance ±5%)
+- High-frequency insertion loss: <1dB deviation acceptable
+- Impedance: Maintain 50-100 ohm specification
+
+ACCEPTANCE CRITERIA:
+- Bend radius compliant with specification
+- No white stress marks or surface cracking
+- Electrical parameters within tolerance (resistance, impedance)
+- Individual conductor continuity verified
+
+REMEDIATION:
+- Straighten wire carefully if kink is recent
+- Replace conductor if resistance increased >10%
+- Re-route cable to comply with bend radius
+
+DOCUMENTATION:
+- Photo of bend (angle reference, measurement tool shown)
+- Resistance measurements (ohms)
+- Bend radius calculation
+- Acceptance or rejection decision

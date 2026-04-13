@@ -1,0 +1,34 @@
+Title: SOP-BOTTLE-002: Minor Defect Triage and Acceptance Criteria
+Product: Glass Bottle
+Defect Type: broken_small
+----------------------------------------------------------------------
+
+SCOPE: This SOP applies to detection of minor defects (<3mm) that may be acceptable.
+
+IDENTIFICATION:
+1. Magnified visual inspection (10x magnification)
+2. Surface palpation (gloved touch inspection)
+3. Dimensional verification with precision calipers
+
+DEFECT CLASSIFICATION:
+- Micro-cracks: <1mm length, surface-level only - ACCEPT
+- Small chips: <3mm diameter, not at stress points - CONDITIONAL ACCEPT
+- Surface scratches: Cosmetic only - ACCEPT
+
+STRESS POINT DEFINITION:
+- Bottle neck junction
+- Base impact zone
+- Label application area (stress concentration)
+
+CONDITIONAL ACCEPTANCE CRITERIA:
+- Defect must be >5mm from bottle rim
+- Defect must be <15mm from base
+- No sharp edges (must be smooth for handling safety)
+
+CUSTOMER COMMUNICATION:
+- Inform customers of minor defects if >2% of batch affected
+- Provide photographic documentation
+- Offer batch replacement guarantee if needed
+
+DOCUMENTATION:
+- QC disposition code: ACCEPT or CONDITIONAL-ACCEPT

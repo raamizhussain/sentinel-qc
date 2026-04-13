@@ -1,0 +1,26 @@
+[
+  {
+    "query": "What should I do if I find a large crack in a bottle?",
+    "expected_doc": "SOP-BOTTLE-001",
+    "query_type": "procedural",
+    "context": "User finding defect in product"
+  },
+  {
+    "query": "How do I assess if a cable's outer insulation damage is acceptable?",
+    "expected_doc": "SOP-CABLE-001",
+    "query_type": "acceptance_criteria",
+    "context": "QC decision making"
+  },
+  {
+    "query": "Detection and handling of foreign particles inside bottles",
+    "expected_doc": "SOP-BOTTLE-003",
+    "query_type": "contamination",
+    "context": "Contamination response"
+  },
+  {
+    "query": "Wire bend radius compliance for cable assemblies",
+    "expected_doc": "SOP-CABLE-002",
+    "query_type": "mechanical_spec",
+    "context": "Quality specification"
+  }
+]

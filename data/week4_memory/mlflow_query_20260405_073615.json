@@ -1,0 +1,35 @@
+{
+  "image_path": "data\\mvtec\\bottle\\test\\broken_small\\000.png",
+  "question": "Is this bottle acceptable or should it be rejected?",
+  "vision_summary": "No vision analysis available.",
+  "retrieval": [
+    {
+      "doc_id": "",
+      "title": "none",
+      "weighted_score": 0.0,
+      "sources": [
+        {
+          "type": "text",
+          "score": 0.0
+        }
+      ]
+    }
+  ],
+  "reasoning": {
+    "defect_type": "unknown",
+    "severity": "unknown",
+    "root_cause": "LLM disabled",
+    "recommended_action": "Manual review required",
+    "confidence": 0.0,
+    "citations": [],
+    "counterfactual": "No LLM available to generate counterfactual reasoning."
+  },
+  "metadata": {
+    "vision_details": {
+      "yolo": null,
+      "anomaly": null
+    },
+    "drift_warning": null,
+    "max_image_similarity": 0.0
+  }
+}

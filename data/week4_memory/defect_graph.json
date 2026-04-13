@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "64201374",
+      "defect_type": "broken_large",
+      "image_path": "data\\mvtec\\bottle\\test\\broken_large\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:26:10.742014"
+    },
+    {
+      "id": "69166395",
+      "defect_type": "broken_small",
+      "image_path": "data\\mvtec\\bottle\\test\\broken_small\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:26:12.050718"
+    },
+    {
+      "id": "8546754",
+      "defect_type": "contamination",
+      "image_path": "data\\mvtec\\bottle\\test\\contamination\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:26:12.925141"
+    },
+    {
+      "id": "36103647",
+      "defect_type": "cut_outer_insulation",
+      "image_path": "data\\mvtec\\cable\\test\\cut_outer_insulation\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:26:13.824964"
+    },
+    {
+      "id": "42604739",
+      "defect_type": "bent_wire",
+      "image_path": "data\\mvtec\\cable\\test\\bent_wire\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:26:14.690744"
+    },
+    {
+      "id": "85914704",
+      "defect_type": "broken_large",
+      "image_path": "data\\mvtec\\bottle\\test\\broken_large\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:36:14.233844"
+    },
+    {
+      "id": "21602025",
+      "defect_type": "broken_small",
+      "image_path": "data\\mvtec\\bottle\\test\\broken_small\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:36:15.511641"
+    },
+    {
+      "id": "32040744",
+      "defect_type": "contamination",
+      "image_path": "data\\mvtec\\bottle\\test\\contamination\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:36:16.313969"
+    },
+    {
+      "id": "44129441",
+      "defect_type": "cut_outer_insulation",
+      "image_path": "data\\mvtec\\cable\\test\\cut_outer_insulation\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:36:17.186848"
+    },
+    {
+      "id": "3196958",
+      "defect_type": "bent_wire",
+      "image_path": "data\\mvtec\\cable\\test\\bent_wire\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:36:18.081410"
+    },
+    {
+      "id": "20386427",
+      "defect_type": "broken_large",
+      "image_path": "data\\mvtec\\bottle\\test\\broken_large\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:37:00.617696"
+    },
+    {
+      "id": "5425929",
+      "defect_type": "broken_small",
+      "image_path": "data\\mvtec\\bottle\\test\\broken_small\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:37:02.509827"
+    },
+    {
+      "id": "4980750",
+      "defect_type": "contamination",
+      "image_path": "data\\mvtec\\bottle\\test\\contamination\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:37:03.794342"
+    },
+    {
+      "id": "97056722",
+      "defect_type": "cut_outer_insulation",
+      "image_path": "data\\mvtec\\cable\\test\\cut_outer_insulation\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:37:04.975088"
+    },
+    {
+      "id": "66250641",
+      "defect_type": "bent_wire",
+      "image_path": "data\\mvtec\\cable\\test\\bent_wire\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T07:37:06.205823"
+    },
+    {
+      "id": "39642430",
+      "defect_type": "good",
+      "image_path": "data/mvtec/bottle/test/good/000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T08:05:37.407080"
+    },
+    {
+      "id": "21963575",
+      "defect_type": "broken_large",
+      "image_path": "..\\data\\mvtec\\bottle\\test\\broken_large\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T08:18:49.066468"
+    },
+    {
+      "id": "2052140",
+      "defect_type": "broken_large",
+      "image_path": "..\\data\\mvtec\\bottle\\test\\broken_large\\000.png",
+      "similarity": 0.0,
+      "timestamp": "2026-04-05T08:24:46.328082"
+    }
+  ],
+  "edges": []
+}

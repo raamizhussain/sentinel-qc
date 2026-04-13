@@ -1,0 +1,39 @@
+Title: SOP-CABLE-001: Outer Insulation Integrity Assessment
+Product: Electronic Cable Assembly
+Defect Type: cut_outer_insulation
+----------------------------------------------------------------------
+
+SCOPE: Detection and evaluation of outer insulation damage in cable assemblies.
+
+INSPECTION EQUIPMENT:
+- Visual inspection (bright field illumination)
+- Continuity tester (optional, if inner conductors exposed)
+- Insulation resistance meter (>20 megohms @ 500V DC)
+- Micrometer for depth measurement
+
+DEFECT CLASSIFICATION:
+- Surface abrasion: Only cosmetic, no conductor exposure - ACCEPT
+- Shallow cut: <50% insulation depth - CONDITIONAL ACCEPT
+- Full cut: Conductor exposed, >50% depth - REJECT
+
+RISK ASSESSMENT:
+- Electrical safety: Short circuit risk if wet environment
+- Signal integrity: Crosstalk if shielding compromised
+- Physical safety: Shock hazard if high voltage application
+
+ACCEPTANCE CRITERIA:
+- No exposure of inner conductor
+- No exposed shielding layer
+- Insulation resistance remains >10 megohms
+- Length of cut <1 inch (25mm) for conditional acceptance
+
+REPAIR OPTIONS:
+- Electrical tape wrapping (temporary, <6 months)
+- Heat-shrink tube (preferred method)
+- Cable segment replacement (if damage >2 inches)
+
+DOCUMENTATION:
+- Cut location (distance from connector, cm)
+- Depth measurement (mm)
+- Photo evidence with scale reference
+- Repair method and materials used
